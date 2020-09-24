@@ -1,3 +1,6 @@
-fn main() {
-    print!("Snake??? Snake???!!! SNAKKEEE!!!!!!");
+mod shell;
+
+fn main() -> Result<(), ()> {
+    shell::enter_shell();
+    Ok(())
 }
