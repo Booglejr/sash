@@ -28,5 +28,5 @@ pub fn enter_shell() {
 }
 
 fn handle_input(input: &String) {
-
+    print!("{}", input);
 }
